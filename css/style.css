@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {
+    background: #989898;
+}
+
+/*============= navbar css ==============*/
+.container a span {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    border-right: 1px dashed black;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    transition: all linear .3s;
+
+}
+
+.navbar {
+    padding: 25px 1rem;
+    top: 0;
+    width: 100%;
+    background-color: #404040;
+    border-style: dashed;
+    border-color: #00000098;
+
+
+}
+
+#navbarSupportedContent > ul li:last-child > a {
+    border-right: none;
+    padding-right: 0;
+}
+
+#navbarSupportedContent > ul li:last-child {
+    padding-right: 0;
+}
+
+#search-box {
+
+    width: 100%;
+    background: #323232b0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#search-box::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 430px;
+    background-color: #747474;
+    z-index: -1;
+}
+
+.section-content {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    color: #fff;
+}
+
+.header form input {
+    background: rgba(204, 204, 204, 0.705);
+    border: none;
+}
+
+.main {
+    background: rgb(238, 238, 238);
+    width: 100%;
+    padding: 15px;
+    float: left;
+
+}
+
+.part {
+    float: left;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 15px;
+    background: rgba(211, 210, 210, 0.418);
+}
+
+.banner img {
+    width: 100%;
+    float: left;
+
+
+}
+
+.service_area {
+    width: 250px;
+    margin-right: 15px;
+    float: left;
+
+}
+
+.service {
+
+    width: 100%;
+    height: 300px;
+    padding: 25px;
+    border-style: dashed;
+    background: #323232;
+    border-color: #00000098;
+    margin-bottom: 22px;
+}
+
+.service p {
+
+    color: #fff;
+    margin: auto;
+
+}
+
+.service h7 {
+
+    color: #9e9e9e;
+    font-size: 13px;
+
+}
+
+.service input {
+
+    margin-top: 20px;
+    padding-top: 15px;
+
+
+}
+
+.service_area .service form input:last-child {
+    background: red;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+}
+
+.text {
+
+    width: 100%;
+    height: 360px;
+    padding: 20px;
+    border-style: dashed;
+    background: #fff;
+    border-color: rgb(168, 168, 168);
+    margin-bottom: 25px;
+
+}
+
+.text p {
+    font-size: x-large;
+}
+
+aside {
+    float: left;
+    width: 100%;
+    font-size: 12px;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+aside > ul > li {
+    position: relative;
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+aside > ul > li > a {
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0;
+    box-sizing: border-box;
+    color: #858585;
+    border-bottom: 1px solid #7a7a7a8e;
+    float: left;
+}
+
+
+
+aside > ul > li:last-child > a {
+    border-bottom: none;
+}
+
+.date {
+
+    width: 100%;
+    height: 370px;
+    padding: 20px;
+    border-style: dashed;
+    background: #323232;
+    border-color: #00000098;
+
+}
+
+.date h4 {
+    color: #fff;
+
+
+}
+
+.date span {
+    color: rgba(255, 0, 0, 0.788);
+
+}
+
+.date p {
+    color: #858585;
+    border-bottom: 1px solid #85858571;
+    padding-bottom: 10px;
+
+}
+
+.date p:last-child {
+    border: none;
+}
+
+.content {
+
+    width: 815px;
+    float: left;
+    background: #fff;
+    border: 10px solid rgba(158, 158, 158, 0.418);
+
+}
+
+.content-head {
+    float: left;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.content-head .about p {
+    color: red;
+}
+
+.about {
+    padding: 5px 0 20px 40px;
+
+    border-bottom: 1px solid rgba(158, 158, 158, 0.418);
+}
+
+.about-part {
+    margin: 20px;
+    font-size: 14px;
+    color: #858585;
+
+
+}
+
+.about-part .row a {
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 5px 20px;
+}
+
+.boss {
+    float: left;
+    padding: 20px;
+    padding-top: 0;
+
+
+}
+
+.boss img {
+    height: 200px;
+    width: 200px;
+}
+
+.about-part form input {
+    margin-top: 15px;
+    padding: 5px 20px;
+    background: red;
+    color: #fff;
+    border: none;
+
+
+}
+
+.content-end {
+
+    width: 815px;
+    float: left;
+    background: #fff;
+    border: 10px solid rgba(158, 158, 158, 0.418);
+    margin-top: 20px;
+}
+
+.content-end .row a {
+    text-decoration: none;
+    color: #fff;
+    background: red;
+    padding: 5px 20px;
+}
+
+.content-footer {
+    float: left;
+    width: 100%;
+    padding: 15px;
+
+}
+
+.content-footer .about p {
+    color: red;
+
+
+}
+
+.content-footer .row {
+    margin-top: 30px;
+    color: #858585;
+    border-bottom: 1px solid rgba(158, 158, 158, 0.418);
+}
+
+.content-footer .row:last-child {
+    border: none;
+}
+
+.content-footer .row {
+    padding-left: 40px;
+}
+
+#footer-head {
+    height: 300px;
+    background: #404040;
+    border-style: dashed;
+    border-color: #00000098;
+
+}
+
+#footer-head h5 {
+    color: #fff;
+    padding-top: 20px;
+    margin: 0;
+
+}
+
+#footer-head h6 {
+    color: rgba(255, 0, 0, 0.637);
+}
+
+#footer-head span {
+    color: #fff;
+}
+
+#des {
+    border-right: 1px dashed #00000098;
+
+}
+
+#footer-end {
+    text-align: center;
+    background: #404040;
+
+
+}
+
+#footer-end p {
+    color: #858585;
+    padding-top: 20px;
+
+}
+/*============= about css ==============*/
+.details{
+    border-bottom: 1px solid rgba(158, 158, 158, 0.418);
+    
+}
+.bio{
+    padding-top: 50px;
+}
+.bio p{
+    color:#858585 ;
+    margin: 0;
+}
+/*============= Solutions css ==============*/
+.worker img{
+    height: 300px;
+    width: 100%;
+}
+#solutions-part .container .main{
+    margin-top: 50px;
+
+}
+/*============= Services css ==============*/
+#Services-part .container .main{
+    margin-top: 50px;
+}
+/*============= blog css ==============*/
+#blog-box{
+    margin-top: 30px;
+}
+#blog-box .content .content-head .about img{
+    width: 100px;
+    height: 100px;
+}
+#comment-part .container .main{
+    margin-top: 50px;
+    background: black;
+}
+#comment-part .container .main  form{
+    width: 600px;
+    color: rgba(255, 255, 255, 0.63);
+}
+#comment-part .container .main .comment-footer {
+    padding-top: 30px;
+    width: 550px;
+
+}
+#comment-part .container .main .comment-footer .person{
+    width:70px ;
+    height:70px;
+    float: left;
+}
+#comment-part .container .main .comment-footer .person img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 30px;
+   
+}
+#comment-part .container .main .comment-footer .person-com{
+ 
+    padding-left: 70px;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.63);
+}
+#comment-part .container .main .comment-footer .person-com span{
+    text-transform: uppercase;
+}
+
+/*============= Contact css ==============*/
+#contact-part .container .main{
+    margin-top: 50px;
+}
